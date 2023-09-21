@@ -1,0 +1,23 @@
+[core]
+  autocrlf = input
+  safecrlf = warn
+  editor = vim
+[push]
+  default = simple
+[credential]
+  helper = read-only
+[alias]
+  root = rev-parse --show-toplevel
+  co = checkout
+  ci = commit
+  cie = commit --allow-empty --allow-empty-message
+  cia = commit --amend --no-edit --reset-author
+  ciea = commit --allow-empty --allow-empty-message --amend --no-edit --reset-author
+  hello = log -1 --color --all HEAD
+  glog = log --graph --all --oneline --abbrev-commit --decorate --date-order
+  gfetch = fetch --all --prune --jobs=16
+  rclone = clone --recurse-submodules
+  sclone = clone --depth=1
+  rsclone = clone --recurse-submodules --depth=1
+  fpush = push --force
+  subup = submodule update --init --recursive
