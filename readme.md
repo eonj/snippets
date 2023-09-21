@@ -1,1 +1,3 @@
-snippets
+# snippets
+
+sources, dotfiles et cetera
