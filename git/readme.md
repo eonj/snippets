@@ -2,7 +2,7 @@
 
 `git-real-empty-commit-if-initial-ed2311748428d60a40d740227db8002a49a41d94.sh`
 
-initial commit 으로 위 파일을 실행했을 경우 (no parent commit, 즉 또는 `--orphan`) commit object 의 내용은 다음과 같게 됩니다.
+initial commit 으로 위 파일을 실행했을 경우 (no parent commit, 즉 또는 `--orphan`) commit object 의 내용은 다음과 같게 되어, 항상 같은 commit object, 항상 같은 commit id 를 얻게 됩니다.
 
 ```
 $ git cat-file -p ed2311748428d60a40d740227db8002a49a41d94
